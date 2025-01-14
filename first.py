@@ -1,4 +1,2 @@
-def hellowrold():
-    print("hello world")
-    
+print("Hello Nurkhat")
     
