@@ -1,20 +1,45 @@
 ''' Example 1 '''
-print(bool("Hello"))
-print(bool(15)) 
+print(10 > 9)
+print(10 == 9)
+print(10 < 9)
 
 ''' Example 2 '''
+Print a message based on whether the condition is True or False:
+
+a = 200
+b = 33
+
+if b > a:
+  print("b is greater than a")
+else:
+  print("b is not greater than a")
+
+''' Example 3 '''
+
+Evaluate a string and a number:
+
+print(bool("Hello"))
+print(bool(15))
+
+''' Example 4 '''
+
+Evaluate two variables:
+
 x = "Hello"
 y = 15
+
 print(bool(x))
 print(bool(y))
 
-''' Example 3 '''
+''' Example 5 '''
+The following will return True:
 
 bool("abc")
 bool(123)
 bool(["apple", "cherry", "banana"])
 
-''' Example 4 '''
+''' Example 6 '''
+The following will return False:
 
 bool(False)
 bool(None)
@@ -24,7 +49,7 @@ bool(())
 bool([])
 bool({})
 
-''' Example 5 '''
+''' Example 7 '''
 class myclass():
   def __len__(self):
     return 0
@@ -32,13 +57,19 @@ class myclass():
 myobj = myclass()
 print(bool(myobj))
 
-''' Example 6 '''
+''' Example 8 ''' 
+Print the answer of a function:
+
 def myFunction() :
   return True
 
 print(myFunction())
+x = 200
+print(isinstance(x, int))
 
-''' Example 7 '''
+''' Example 9 ''' 
+Print "YES!" if the function returns True, otherwise print "NO!":
+
 def myFunction() :
   return True
 
@@ -47,8 +78,12 @@ if myFunction():
 else:
   print("NO!")
 
-''' Example 8 ''' 
+'''Example 10'''
+Check if an object is an integer or not:
+
 x = 200
 print(isinstance(x, int))
+
+
 
     
