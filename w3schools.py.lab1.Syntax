@@ -1,0 +1,27 @@
+------------------------------------------------------------------------'''Python Syntax'''----------------------------------------------------------------------------
+'''Example 1'''
+if 5 > 2:
+  print("Five is greater than two!")
+
+'''Example 2'''
+Syntax Error:
+
+if 5 > 2:
+print("Five is greater than two!")
+
+'''Example 3'''
+if 5 > 2:
+ print("Five is greater than two!") 
+if 5 > 2:
+        print("Five is greater than two!") 
+
+'''Example 4'''
+Variables in Python:
+
+x = 5
+y = "Hello, World!"
+'''Example 5'''
+Comments in Python:
+
+#This is a comment.
+print("Hello, World!")
